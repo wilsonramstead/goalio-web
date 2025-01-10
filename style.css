@@ -65,3 +65,30 @@ a:hover {
 text-decoration: underline;
 }
   
+
+/* Styling for the EULA section */
+#eula {
+    background-color: #f9fafb; /* Light gray background for contrast */
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Styling for the list items in EULA */
+#eula ul {
+    padding-left: 20px; /* Indent the bullet points */
+    list-style-type: disc; /* Ensure standard bullet points */
+}
+
+#eula ul li {
+    font-size: 1rem;
+    color: #4b5563; /* A slightly darker gray for better readability */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Styling for important points in EULA */
+#eula p {
+    color: #34495e; /* Match the headers for consistency */
+    font-weight: bold; /* Make the introductory paragraph stand out */
+    margin-bottom: 10px;
+}
